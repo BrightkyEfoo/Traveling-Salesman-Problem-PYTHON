@@ -8,12 +8,11 @@ from Tree.Tree import Tree , postfixe
 inf = float('inf')
 
 Mat = [
-    [inf, 1, 7, 3, 14, 2],
-    [3, inf, 6, 9, 1, 24],
-    [6, 14, inf, 3, 7, 3],
-    [2, 3, 5, inf, 9, 11],
-    [15, -7, 11, 2, inf, 4],
-    [-20, 5, 13, 4, 18, inf]
+    [inf, 2, 1, 3, 4],
+    [1, inf, 6, 5, 7],
+    [4, 3, inf, 8, 2],
+    [5, 7, 4, inf, 1],
+    [2, 3, 5, 2, inf],
 ]
 
 
