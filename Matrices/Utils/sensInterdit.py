@@ -14,14 +14,15 @@ def sensInterdit(arcs):
             res += [[b, a]]
         else:
             temp = longsChemins[i].copy()
+            # res += longsChemins[]
             tempV = temp[-1][1]
             temp.pop(-1)
 
             tempTab = []
             for el in temp:
                 for k in range(2):
-                    if not el[i] in tempTab:
-                        tempTab.append(el[i])
+                    if not el[k] in tempTab:
+                        tempTab.append(el[k])
 
             res += [[tempV, a] for a in tempTab]
     # print(f'res = {res}')

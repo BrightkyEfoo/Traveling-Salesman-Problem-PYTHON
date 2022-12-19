@@ -4,8 +4,8 @@ def reduire(Ma):
     # Renvoie [s , Mat] s etant la somme des reductions et Mat la matrice reduite
     s = 0
     Mat = Ma.copy()
-    l = len(Mat)
-    l1 = len(Mat[0])
+    l = len(Mat) # l nombre ligne
+    l1 = len(Mat[0]) # l1 nombre colones
     for i in range(l):
         temp = min(Mat[i])
         s+=temp

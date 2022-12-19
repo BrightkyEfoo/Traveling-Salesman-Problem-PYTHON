@@ -2,6 +2,7 @@
 def regrets(Ma):
     # Ma est une matrice
     Mat = Ma.copy()
+    #l nbr lignes l1 nbre colonnes
     l = len(Mat)
     l1 = len(Mat[0])
     Max = 0
